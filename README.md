@@ -1,4 +1,4 @@
 ftper
 =====
 
-lightweight fast massive ftp server &amp; lib
+More information is on https://code.google.com/p/feitp-server/
