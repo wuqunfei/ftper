@@ -8,8 +8,10 @@ English<br>
 
 Deutsch<br>
 1.Das ist vielleicht die stärkste ftp-Server-Lib auf dieser Welt. <br>
-2.Entwicklung auf Python pyftp lib. Danke für den Vorschlag von Autor während der 3 monatlichen 3.Kommunikation.<br>
-4.Mit Hilfe von Multi-Prozess-Lib verwendet feitp-Server Multi-CPU-Ressourcen, um die Leistungen zu fördern. <br>
-5.10 Mals schneller als Vsftp, 5 Mals schneller als pyftplib (abhängig von Ihrer Hardware-Fähigkeit) <br>
-6.Gute Stabilität für 5 Millionen Kunden in Shanghai TV-Box ftp Produktumgebung. <br>
-7.Leicht zur Weiterentwicklung. Es gibt API, damit Entwickler anmelden, hochladen, abmelden, usw. können.<br>
+2.Entwicklung auf Python pyftp lib. Danke für den Vorschlag von Autor während der 3 monatlichen Kommunikation.<br>
+3.Mit Hilfe von Multi-Prozess-Lib verwendet feitp-Server Multi-CPU-Ressourcen, um die Leistungen zu fördern. <br>
+4.10 Mals schneller als Vsftp, 5 Mals schneller als pyftplib (abhängig von Ihrer Hardware-Fähigkeit) <br>
+5.Gute Stabilität für 5 Millionen Kunden in Shanghai TV-Box ftp Produktumgebung. <br>
+6.Leicht zur Weiterentwicklung. Es gibt API, damit Entwickler anmelden, hochladen, abmelden, usw. können.<br>
+
+SouceCode is still on GoogleCode https://code.google.com/p/feitp-server/
