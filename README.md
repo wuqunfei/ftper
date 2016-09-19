@@ -16,4 +16,26 @@ Deutsch<br>
 
 SouceCode is still on GoogleCode https://code.google.com/p/feitp-server/
 
+First lib is pyftpdlib which is a high-level portable interface to easily write asynchronous FTP servers.
+Secondly, multiprocessing lib is good method let you to use multi-CPU in your machine replacing the 1 CPU running all threading.
+Thirdly, I rewrite the pyftpdlib sourcecode.
+
+Some params need to config
+1.In Linux
+$ulimit -n max_open_file_number
+$ulimit -s min_buffer_in_one_thread
+
+2.In Process
+I suggest that you can use double of your CPU number for yout ftp processes.
+Process(N) = CPU(N) 2
+
+4.In FTP
+
+tcp_no_delay = True
+max_connection = max_your_can
+use_simply_auth when you login
+the default of income_buffer which you can change with your logic
+
+Screenshot 1900 TPS for 50 Client together, No failed,Response at 0.005~0.0035 ms.
+
 ![image](https://farm7.staticflickr.com/6108/6331353252_8d435a1e0c_b_d.jpg)
