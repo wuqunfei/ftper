@@ -17,8 +17,7 @@ Deutsch<br>
 SouceCode is still on GoogleCode https://code.google.com/p/feitp-server/
 
 First lib is pyftpdlib which is a high-level portable interface to easily write asynchronous FTP servers.
-Secondly, multiprocessing lib is good method let you to use multi-CPU in your machine replacing the 1 CPU running all threading.
-Thirdly, I rewrite the pyftpdlib sourcecode.
+Secondly, multiprocessing lib is good method let you to use multi-CPU in your machine replacing the 1 CPU running all threading.Thirdly, I rewrite the pyftpdlib sourcecode.
 
 Some params need to config
 1.In Linux
